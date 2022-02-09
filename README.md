@@ -25,7 +25,7 @@ Avantages :
 
 ![Screenshot 2022-02-09 at 22-32-08 vue-weather](https://user-images.githubusercontent.com/61947370/153297062-612f7039-7ec7-4ac7-875c-1aeb9298f7a8.png)
 
-# Autres intégrations 
+## Autres intégrations 
 
 - https://bilal2536.github.io/Minimalist-portfolio/ 
 - https://bilal2536.github.io/Ubiquity-landing-page/
