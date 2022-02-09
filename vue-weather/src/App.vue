@@ -10,6 +10,9 @@
             @keypress="fetchWeather"  
           />
         </div>
+        <div class="info-box" v-if="typeof weather.main == 'undefined'">
+          Recherchez la météo partout dans le monde !
+        </div>
         <div class="weather-wrap" v-if="typeof weather.main != 'undefined'">
           <div class="location-box">
             <div class="location">{{ weather.name }}, {{ weather.sys.country }}</div>
@@ -117,7 +120,12 @@ main{
   border-radius: 16px 0px 16px 0px;
 }
 
-.location-box .location {
+.info-box{
+  padding: 50px 20px;
+  background-color: rgba(255, 255, 255, 0.452);
+}
+
+.location-box .location, .info-box{
   color: #FFF;
   font-size: 32px;
   font-weight: 500;
